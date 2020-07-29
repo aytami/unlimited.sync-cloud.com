@@ -8,8 +8,8 @@
 
   <div id="login_div" class="main-div">
     <h3>Firebase Web login Example</h3>
-    <input type="email" placeholder="Email..." id="email_field" />
-    <input type="password" placeholder="Password..." id="password_field" />
+    <input type="email" placeholder="Email..." id="email" />
+    <input type="password" placeholder="Password..." id="password" />
 
     <button onclick="login()">Login to Account</button>
   </div>
@@ -21,21 +21,11 @@
   </div>
 
 
-
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-    apiKey: "AIzaSyCjwbKUvDopzXFnl8KhYeYHj0YGhrSHUjI",
-    authDomain: "mydatabase-c1f53.firebaseapp.com",
-    databaseURL: "https://mydatabase-c1f53.firebaseio.com",
-    projectId: "mydatabase-c1f53",
-    storageBucket: "mydatabase-c1f53.appspot.com",
-    messagingSenderId: "925452085527",
-    };
-    firebase.initializeApp(config);
-  </script>
-  <script src="index.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+<script src="index.js"></script>
+<script src="https://unlimited.sync-cloud.com/firebase/form.js"></script>
 
 </body>
 </html>
